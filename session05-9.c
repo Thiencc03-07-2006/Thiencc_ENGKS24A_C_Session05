@@ -16,22 +16,22 @@ int main(){
 				max=max>num3?max:num3;
 			    break;
 			case 2:
-				if(check=1){
+				if(check==1){
 				    printf("Tong 3 so la: %.2f",num1+num2+num3);
 				}
 			    break;
 			case 3:
-			    if(check=1){
+			    if(check==1){
 			    	printf("trung binh cong 3 so la: %.2f",(num1+num2+num3)/3);
 				}
 			    break;
 			case 4:
-			    if(check=1){
+			    if(check==1){
 			    	printf("so nho nhat la: %.2f",min);
 				}
 			    break;
 			case 5:
-				if(check=1){
+				if(check==1){
 					printf("so lon nhat la: %.2f",max);
 				}
 				break;
