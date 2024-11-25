@@ -2,7 +2,7 @@
 
 int main(){
 	int num=1;
-	while(num!=0){
+	while(num){
 		printf("nhap vao so nguyen: ");
 		scanf("%d",&num);
 	}
