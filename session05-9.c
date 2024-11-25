@@ -10,6 +10,7 @@ int main(){
 			case 1:
 			    printf("nhap 3 so:\n");
 			    scanf("%f %f %f",&num1,&num2,&num3);
+				check=1;
 			    min=num1<num2?num1:num2;
 				min=min<num3?min:num3;
 				max=num1>num2?num1:num2;
